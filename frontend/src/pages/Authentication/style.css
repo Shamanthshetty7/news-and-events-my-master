@@ -1,0 +1,76 @@
+.container-fluid.log{
+  margin: auto 10px;
+    width: 100%;
+    height: 750px;
+    background:linear-gradient(to bottom,rgba(120, 155, 50, 0.6),rgba(212, 210, 182, 0.69) 100%);
+  
+
+}
+
+
+.sp {
+  font-size: xx-large;
+}
+.btn-t{
+
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .btn-t:hover,
+  .btn-t:focus {
+    cursor: pointer;
+  background-color: #F082AC;
+  font-size: 14px;
+  }
+
+.but {
+  width: 20%;
+}
+.but:hover {
+  cursor: pointer;
+  color: rgb(216, 64, 127);
+  font-size: 20px;
+}
+
+
+.card-body {
+  /* fallback for old browsers */
+  background: #6a11cb;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #8C1BAB,#F761A1);
+  width: 400px;
+  height: 600px; 
+  position: relative;
+  top: 27%;
+  left: 50%;
+  margin-top: -100px; 
+  margin-left: -150px; 
+  }
+
