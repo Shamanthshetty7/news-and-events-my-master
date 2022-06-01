@@ -110,7 +110,7 @@ const Dashboard = () => {
           <Row>
             {/* -------- Type -------- */}
             <InputGroup className="mb-3 mt-4">
-              <InputGroup.Text>chirag News Type : </InputGroup.Text>
+              <InputGroup.Text><b>News Type :</b> </InputGroup.Text>
               {
                 <select
                   name="type"
