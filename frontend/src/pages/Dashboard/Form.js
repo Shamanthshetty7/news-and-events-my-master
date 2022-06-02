@@ -16,6 +16,8 @@ import { NEWS_URL, CONFIG } from "../../utils/constants";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 import { getRow, update } from "../../actions/newsAction";
+//import "../../pages/Dashboard/form.css";
+import "./form.css";
 
 const Dashboard = () => {
   const { id } = useParams();
@@ -87,6 +89,7 @@ const Dashboard = () => {
       }
     }
   };
+  document.body.style.backgroundColor = "#AA0000";
 
   return (
     <>
@@ -114,7 +117,7 @@ const Dashboard = () => {
               {
                 <select
                   name="type"
-                  className="dropdown-border"
+                  className="btn btn-danger"
                   id="dropdown"
                   onChange={(val) => {
                     handleInputChange(val);
