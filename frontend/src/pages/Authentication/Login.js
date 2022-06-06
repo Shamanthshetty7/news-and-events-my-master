@@ -56,11 +56,10 @@ const Login = () => {
 
         }
     };
-    document.body.style.backgroundColor = "#AA0000";
     return (
         <>
             <Header />
-            <div className=" container-fluid log" >
+            <div backgrd>
                 <div className="row">
                     <div className="col">
    
@@ -106,7 +105,7 @@ const Login = () => {
 
                     </div>
                 </div>
-            </div>
+           </div>
             <Footer />
         </>
     );

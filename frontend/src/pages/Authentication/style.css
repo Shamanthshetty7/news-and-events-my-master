@@ -1,4 +1,6 @@
-
+.backgrd{
+  background-color:linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+}
 .sp {
   font-size: xx-large;
 }

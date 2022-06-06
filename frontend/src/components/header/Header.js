@@ -7,13 +7,13 @@ import './style.css';
 
 export default function Header() {
   return (
-    <nav className="navbar navbar-light bg-light">
+    <nav className="navbar navbar-light ">
       <div className="container-fluid ss">
         <img
           src={svg}
           alt=""
           width="100"
-          height="70"
+          height="50"
           className="d-inline-block align-text-top"
         />
         <span className="h12" ><b>News and Events</b></span>
