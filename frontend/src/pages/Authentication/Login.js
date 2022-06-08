@@ -56,17 +56,7 @@ const Login = () => {
 
         }
     };
-    color_1 = document.querySelector("#color-1");
-    color_2 = document.querySelector("#color-2");
-    body = document.querySelector("body");
-    
-    function changeBackgroundColor() {
-        body.style.backgroundImage = "linear-gradient(to right, " +color_1.value+ ", "+ color_2.value + ")";
-    }
-    
-    //************* Both the listeners work fine and the cashed selectors
-    color_1.addEventListener("input", changeBackgroundColor);
-    color_2.addEventListener("input", changeBackgroundColor);
+
     return (
         <>
             <Header />
