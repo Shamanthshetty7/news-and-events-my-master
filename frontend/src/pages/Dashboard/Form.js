@@ -89,7 +89,7 @@ const Dashboard = () => {
       }
     }
   };
-  document.body.style.backgroundColor = "#AA0000";
+  
 
   return (
     <>
